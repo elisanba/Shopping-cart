@@ -1,0 +1,92 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Carrito de compra</title>
+	<link rel="stylesheet" type="text/css" href="http://www.w3cschool.cc/try/jeasyui/themes/default/easyui.css">
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="http://www.w3cschool.cc/try/jeasyui/jquery.easyui.min.js"></script>
+    <script src="./js/app.js"></script>
+	<link rel="stylesheet" href="./css/style.css">
+	
+</head>
+<body>
+    <h1> Tienda </h1>
+    
+	<ul class="products">
+		<li>
+			<a href="#" class="item">
+				<img src="./img/agua.jpg"/>
+				<div>
+					<p>Agua</p>
+					<p>Precio: 2.5</p>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="#" class="item">
+				<img src="./img/cafe.jpg"/>
+				<div>
+					<p>Café</p>
+					<p>Precio: $ 3.9</p>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="#" class="item">
+				<img src="./img/champu.jpg"/>
+				<div>
+					<p>champu</p>
+					<p>Precio:$ 2.5</p>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="#" class="item">
+				<img src="./img/melon.jpg"/>
+				<div>
+					<p>Melón</p>
+					<p>Precio:$ 1.5</p>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="#" class="item">
+				<img src="./img/pizza.jpg"/>
+				<div>
+					<p>Pizza</p>
+					<p>Precio:$ 1.2</p>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="#" class="item">
+				<img src="./img/vino.jpg"/>
+				<div>
+					<p>Vino</p>
+					<p>Precio:$ 4.8</p>
+				</div>
+			</a>
+		</li>
+	</ul>
+
+	<div class="cart">
+		<h1>Carrito</h1>
+		<div style="background:#fff">
+		<table id="cartcontent" fitColumns="true" style="width:300px;height:auto;">
+			<thead>
+				<tr>
+					<th field="name" width=140>Nombre</th>
+					<th field="quantity" width=60 align="right">Cantidad</th>
+					<th field="price" width=60 align="right">Precio</th>
+				</tr>
+			</thead>
+		</table>
+		</div>
+		<p class="total">Total: $ 0</p>
+		<h2>Suelta aquí para agregar al carrito</h2>
+	</div>
+</body>
+</html>
