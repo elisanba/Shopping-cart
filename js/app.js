@@ -1,5 +1,6 @@
 let data = {"total":0,"rows":[]};
-		let totalCost = 0;
+let totalCost = 0;
+		
 		
 		$(() => {
 			$('#cartcontent').datagrid({
